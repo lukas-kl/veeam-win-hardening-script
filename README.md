@@ -1,8 +1,16 @@
 # veeam-win-hardening-script
 Veeam Hardening Script for Windows (CIS contents)
 
+Disclaimer:
+Important - I do not provide any guarantees that the script I have successfully tested will run without errors in every environment.
+The script is solely intended to simplify and standardize hardening standards, which may not be applicable or appropriate for all environments!
+Furthermore, I do not guarantee the completeness of the tests!
+
 
 Prerequisities and limitations:
+
+The script is primarily designed for new installations!
+
 - The script is tested for Veeam Backup & Replication and Veeam Enterprise Manager workloads / systems
 - The script is not tested and designed for Veeam components within a management domain (Active Directory)
 - The operating system has to be Windows Server 2022 Standard or Datacenter (other systems are not tested)
