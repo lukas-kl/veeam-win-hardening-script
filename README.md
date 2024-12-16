@@ -1,13 +1,13 @@
 # veeam-win-hardening-script
-Veeam Hardening Script for Windows (CIS contents)
+# Veeam Hardening Script for Windows (CIS contents)
 
-Disclaimer:
+## Disclaimer:
 Important - I do not provide any guarantees that the script I have successfully tested will run without errors in every environment.
 The script is solely intended to simplify and standardize hardening standards, which may not be applicable or appropriate for all environments!
 Furthermore, I do not guarantee the completeness of the tests!
 
 
-Prerequisities and limitations:
+## Prerequisities and limitations:
 
 The script is primarily designed for new installations!
 
@@ -16,7 +16,7 @@ The script is primarily designed for new installations!
 - The operating system has to be Windows Server 2022 Standard or Datacenter (other systems are not tested)
 
 
-Actions to apply the script:
+## Actions to apply the script:
 1. Install Windows Server 2022
 2. Install drivers (VMware Tools or hardware vendor drivers)
 3. Configure IP settings
@@ -29,7 +29,7 @@ Actions to apply the script:
 10. Run the Veeam Security & Compliance script
 
 
-Additional information:
+## Additional information:
 - The output file (manuscript) is located at C:\Install after the script execution
 - The ntrights.exe will be deleted at the end of the script - this is expected!
 - Take a look at the script's contents: e.g. an idle timeout of 15min will potentially change workflows!
