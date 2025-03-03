@@ -13,6 +13,7 @@ The script is primarily designed for new installations!
 - The script is tested for Veeam Backup & Replication and Veeam Enterprise Manager workloads / systems
 - The script is not tested and designed for Veeam components within a management domain (Active Directory)
 - The operating system has to be Windows Server 2022 Standard or Datacenter (other systems are not tested)
+- The operating system language has to be English (no language pack on another language is allowed!)
 
 
 ## Actions to apply the script:
