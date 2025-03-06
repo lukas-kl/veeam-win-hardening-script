@@ -10,14 +10,14 @@ Furthermore, I do not guarantee the completeness of the tests!
 
 The script is primarily designed for new installations!
 
-- The script is tested for Veeam Backup & Replication and Veeam Enterprise Manager workloads / systems
+- The script is tested for Veeam Backup & Replication, Veeam Enterprise Manager and Veeam ONE workloads / systems
 - The script is not tested and designed for Veeam components within a management domain (Active Directory)
-- The operating system has to be Windows Server 2022 Standard or Datacenter (other systems are not tested)
+- The operating system has to be Windows Server 2022 or 2025 Standard or Datacenter (other systems are not tested)
 - The operating system language has to be English (no language pack on another language is allowed!)
 
 
 ## Actions to apply the script:
-1. Install Windows Server 2022
+1. Install Windows Server 2022 or Windows Server 2025
 2. Install drivers (VMware Tools or hardware vendor drivers)
 3. Configure IP settings
 4. Configure hostname and workgroup and reboot
